@@ -1,0 +1,514 @@
+
+body{padding-top: 70px}
+
+h1,h2,h3,h4,h5,.lead{font-family: 'Droid Sans', sans-serif;}
+
+/*****start bootstrap style******/
+
+.navbar{min-height: 70px}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #d0d0d0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 16px
+}
+
+.navbar-inverse .navbar-brand{
+    color: #d0d0d0;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+
+.dropdown-menu{background-color: #222; min-width: 200px}
+
+.navbar-right .dropdown-menu{left :0; right: auto}
+
+.dropdown-menu > li > a{
+    color: #d0d0d0;
+    padding: 6px 20px;
+    min-width: 200px;
+    -webkit-transition: padding 0.5s ease;
+    -moz-transition: padding 0.5s ease;
+    -o-transition: padding 0.5s ease;
+    transition: padding 0.5s ease;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus{color: #fff; padding-left: 25px}
+
+.dropdown-menu .divider{background-color: #871818}
+
+.navbar- toggle{margin-top: 18px}
+
+/*end navbar style*/
+
+/*start carousel*/
+
+.carousel-caption{
+    bottom: 40px;
+    background-color: rgba(0,0,0,0.2);
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 10px
+}
+
+.carousel-caption .h1{text-shadow: 3px 2px #000}
+
+.carousel-indicators{bottom: 0}
+
+.carousel-indicators li{
+    height: 15px;
+    width: 15px;
+    border: 1px solid #eee
+}
+
+.carousel-indicators .active{
+height: 17px; width: 17px}
+
+.carousel-inner > .item > img{width: 100%}
+/*end carousel*/
+
+/*****end bootstrap style*****/
+
+/*section tool box start*/
+
+.option-box{
+    position: fixed;
+    top: 71px;
+    left: 0;
+    z-index: 10000;
+}
+
+.option-box .color-option{
+    float: left;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    width: 200px;
+    display: none
+}
+
+.option-box .color-option ul li{
+    display: inline-block;
+    width: 20px; 
+    height: 20px;
+    margin-right: 3px;
+    cursor: pointer
+}
+
+.option-box .gear-check{
+    padding: 5px;
+    color: #fff;
+    cursor: pointer
+}
+
+/*section tool box end*/
+
+
+/*section about start*/
+
+.about{padding-top: 20px; padding-bottom: 20px}
+
+.about .lead{
+    font-size: 22px;
+    color: #888;
+    margin-top: 15px
+}
+
+.about h1{font-weight: bold}
+
+/*section about start*/
+
+/*section features start*/
+
+.features{
+    background-color: #eee;
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+
+.features .h1{font-weight: bold;margin-bottom: 30px}
+
+.features .feat{margin-bottom: 20px}
+
+.features .feat p{line-height: 1.5em;}
+
+.features .feat span.glyphicon{
+    font-size: 40px;
+    color: #333;
+    margin-bottom: 10px
+}
+
+/*section features end*/
+
+/*section testimonials start*/
+
+.testimonials{padding-top: 50px; padding-bottom: 50px}
+
+.testimonials .h1{font-weight: bold;margin-bottom: 20px}
+
+.testimonials .lead{
+    line-height: 1.5em;
+    font-size: 18px;
+    margin-bottom: 20px
+}
+
+.testimonials span{font-size: 20px;font-weight: bold}
+
+.testimonials .carousel-inner{min-height: 160px}
+
+.testimonials .carousel-indicators{
+    position: static;
+    width: 100%;
+    margin-left: auto;
+    padding-top: 20px
+}
+
+.testimonials .carousel-indicators li{
+    text-indent: 0;
+    width: 80px;
+    height: 80px;
+    opacity: 0.5;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 5px
+}
+
+.testimonials .carousel-indicators li.active{
+    width: 80px;
+    height: 80px;
+    opacity: 1;
+    background: none
+}
+
+.testimonials .carousel-indicators li img{max-width: 100%}
+
+/*section testimonials end*/
+
+/*section price table start*/
+
+.price-table{
+    background-color: #eee;
+    padding-top: 40px;
+    padding-bottom: 40px
+}
+
+.price-table .h1{margin-bottom: 40px; font-weight: bold}
+
+.price-table .price-box{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 15px
+}
+
+.price-table .price-box:hover p{
+   -webkit-transform:scale(1.1,1.1) rotate(360deg);
+    -moz-transform:scale(1.1,1.1) rotate(360deg);
+    -o-transform:scale(1.1,1.1) rotate(360deg);
+    transform:scale(1.1,1.1) rotate(360deg);
+    border: 2px solid #dfdfdf
+}
+
+.price-table .price-box h2{margin: 5px 0 15px}
+
+.price-table .price-box p{
+    font-size: 35px;
+    font-weight: bold;
+    color: #666;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 50%;
+    background: #f3f3f3;
+    border: 1px solid #fff;
+    -webkit-transition-duration: 0.7s;
+    -moz-transition-duration: 0.7s;
+    -o-transition-duration: 0.7s;
+    transition-duration: 0.7s;
+}
+
+.price-table .price-box ul{line-height: 250%; font-size: 18px}
+
+.price-table .price-box a{margin-bottom: 5px}
+
+/*section price table end*/
+
+/*section our team start*/
+
+.our-team {background: url('../image/our-team-background.jpg') no-repeat center center fixed; min-height: 600px}
+
+.our-team .team-overlay{
+    background: rgba(1,1,1,0.5);
+    color: #fff;
+    min-height: 600px;
+    padding-top: 40px;
+    padding-bottom: 40px
+}
+
+.our-team .team-overlay .h1{margin-bottom: 40px; font-weight: bold}
+
+.our-team .person{margin-bottom: 40px}
+
+.our-team .person i{color: #ccc;margin-right: 5px}
+
+/*section our team end*/
+
+/*section subscribe start*/
+
+.subscribe{
+    padding-top: 30px;
+    padding-bottom: 70px;
+    background: #eee
+}
+
+.subscribe .h1{
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 20px
+}
+
+.subscribe p{margin-bottom: 30px}
+
+.subscribe .form-control{
+    border-radius: 0;
+    margin-right: -5px;
+    width: 300px
+}
+
+.subscribe button{border-radius: 0}
+
+/*section subscribe end*/
+
+/*section statistics start*/
+
+.statistics {background: url('../image/statistics-background.jpg') no-repeat center center fixed; min-height: 300px}
+
+.statistics .stats-overlay{
+    background: rgba(1,1,1,0.7);
+    color: #b6b5b5;
+    min-height: 300px;
+    padding-top: 40px;
+    padding-bottom: 70px
+}
+
+.statistics .h1{font-weight: bold; margin-bottom: 40px}
+
+.statistics .stats {margin-bottom: 30px}
+
+.statistics .stats:hover{color: #fff}
+
+.statistics p{
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 0
+}
+
+.statistics span{font-size: 18px}
+
+/*section statistics end*/
+
+/*section our skills start*/
+
+.our-skills{padding-top: 30px; padding-bottom: 70px}
+
+.our-skills .h1{font-weight: bold;margin-bottom: 60px}
+
+.our-skills h3{margin-top: 0; font-weight: bold}
+
+.our-skills .progress{height: 36px}
+
+.our-skills .progress-bar{
+    line-height: 36px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    text-indent: 10px;
+    color: black
+}
+
+/*section our skills end*/
+
+/*section contact us start*/
+
+.contact-us {background: url('../image/contact-us-background.jpg') no-repeat center center fixed; min-height: 300px}
+
+.contact-us .contact-overlay{
+    background: rgba(1,1,1,0.7);
+    color: #ddd;
+    min-height: 300px;
+    padding-top: 40px;
+    padding-bottom: 40px
+}
+
+.contact-us p{margin-bottom: 40px}
+
+.contact-us textarea{height: 107px}
+
+.contact-us textarea,
+input[type='text']{
+    background: rgba(82,78,78,0.7);
+    color: #fff;
+    border: none
+}
+
+/*section contact us end*/
+
+/*section Our Clients start*/
+
+.our-clients{
+    background: #eee;
+    padding-bottom: 20px;
+    padding-top: 20px
+}
+
+.our-clients img{
+    opacity: 0.4;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.our-clients img:hover{opacity: 1}
+
+/*section Our Clients end*/
+
+/*section footer start*/
+
+.footer{
+    background: #111;
+    color: #aaa;
+    padding-top: 20px
+}
+
+.footer a{
+    color: #aaa;
+    text-decoration: none;
+}
+
+.footer a:hover{color: #fff}
+
+.footer h3{letter-spacing: 1px; margin: 30px 0 20px;}
+
+.footer .three-columns{overflow: hidden}
+
+.footer .three-columns li{
+    width: 33.3333%;
+    float: left;
+    padding: 5px 0
+}
+
+.footer .social-list{overflow: hidden; margin: 20px 0 10px}
+
+.footer .social-list li{
+    float: left;
+    margin-right: 3px;
+    opacity: 0.5;
+}
+
+.footer .social-list li:hover{opacity: 1;cursor: pointer}
+
+.footer .img-thumbnail{
+    background: rgba(0,0,0,0.2);
+    border: 1px solid #444;
+    margin-bottom: 5px
+}
+
+.footer .copyright{
+    background: #333;
+    color: #aaa;
+    padding: 10px 0;
+    font-size: 18px;
+    margin-top: 30px
+}
+
+
+/*section footer end*/
+
+/*section loading start*/
+
+.loading-overlay{
+    background-color: #222;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 100000;
+    left: 0;
+    top: 0
+}
+
+/*start loading spinners*/
+.spinner {
+  width: 40px;
+  height: 40px;
+  background-color: darkred;    
+
+  margin: 100px auto;
+  -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+  animation: sk-rotateplane 1.2s infinite ease-in-out;
+}
+
+@-webkit-keyframes sk-rotateplane {
+  0% { -webkit-transform: perspective(120px) }
+  50% { -webkit-transform: perspective(120px) rotateY(180deg) }
+  100% { -webkit-transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
+}
+
+@keyframes sk-rotateplane {
+  0% { 
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg) 
+  } 50% { 
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg) 
+  } 100% { 
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+  }
+}
+
+/*section loading end*/
+
+/*scroll top start*/
+
+#scroll-top{
+    width: 55px;
+    height: 46px;
+    color: #ddd;
+    text-align: center;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 1000000;
+    cursor: pointer;
+    display: none
+}
+
+#scroll-top:hover{background-color: darkslategray}
+
+/*scroll top end*/
+
+/*our grouping start*/
+
+.our-team, .statistics, .contact-us{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.footer .social-list li,
+.footer a, .our-clients img,
+.statistics .stats,
+.testimonials .carousel-indicators li
+{
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+}
+
+/*our grouping  end*/
